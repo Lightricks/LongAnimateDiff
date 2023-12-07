@@ -1,0 +1,23 @@
+RealisticVision:
+  inference_config: "LongAnimate/configs/long-inference.yaml"
+  motion_module:
+    - "models/Motion_Module/lt_long_mm_64_frames.ckpt"
+  dreambooth_path: "models/DreamBooth_LoRA/epicRealismNaturalSin.safetensors"
+  lora_model_path: ""
+
+  seed:           [3,142961627088720650,13100322578370451493,1]
+  steps:          20
+  guidance_scale: 7.5
+
+  prompt:
+    - "photo, portrait of old people, glasses, harsh camera"
+    - "A drone is flying in the sky above a forest" #bad 13100322578370451493 14752961627088720670 1 10 0k
+    - "photo of coastline, rocks, storm weather, wind, waves, lightning, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3" #good
+    - "a young man is dancing in a paris nice street"
+
+  n_prompt:
+    - "asian, chinese, text, error, cropped, ugly, duplicate, morbid, mutilated, out of frame, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, username, watermark, signature"
+    - "(worst quality low quality: 1.4)"
+    - "blur, haze, deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime, mutated hands and fingers, deformed, distorted, disfigured, poorly drawn, bad anatomy, wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, amputation"
+    - "wrong anatomy, extra limb, missing limb, floating limbs, disconnected limbs, mutation, mutated, ugly, disgusting, amputation render, illustration, deformed, distorted, disfigured, doll, poorly drawn, bad anatomy, wrong anatomy deformed, naked, nude, breast (worst quality low quality: 1.4)"
+
