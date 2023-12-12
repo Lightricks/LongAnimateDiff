@@ -1,5 +1,5 @@
 RealisticVision:
-  inference_config: "LongAnimate/configs/long-inference.yaml"
+  inference_config: "LongAnimateDiff/configs/long-inference.yaml"
   motion_module:
     - "models/Motion_Module/lt_long_mm_32_frames.ckpt"
   dreambooth_path: "models/DreamBooth_LoRA/realisticVisionV60B1_v20Novae.safetensors"

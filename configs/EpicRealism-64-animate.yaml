@@ -1,5 +1,5 @@
 RealisticVision:
-  inference_config: "LongAnimate/configs/long-inference.yaml"
+  inference_config: "LongAnimateDiff/configs/long-inference.yaml"
   motion_module:
     - "models/Motion_Module/lt_long_mm_64_frames.ckpt"
   dreambooth_path: "models/DreamBooth_LoRA/epicRealismNaturalSin.safetensors"
@@ -11,8 +11,8 @@ RealisticVision:
 
   prompt:
     - "photo, portrait of old people, glasses, harsh camera"
-    - "A drone is flying in the sky above a forest" #bad 13100322578370451493 14752961627088720670 1 10 0k
-    - "photo of coastline, rocks, storm weather, wind, waves, lightning, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3" #good
+    - "A drone is flying in the sky above a forest"
+    - "photo of coastline, rocks, storm weather, wind, waves, lightning, 8k uhd, dslr, soft lighting, high quality, film grain, Fujifilm XT3"
     - "a young man is dancing in a paris nice street"
 
   n_prompt:

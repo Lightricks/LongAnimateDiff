@@ -7,7 +7,6 @@ We are pleased to release the "LongAnimateDiff" model, which has been trained to
 ranging from 16 to 64 frames. 
 This model is compatible with the original AnimateDiff model.
 
-## Results
 We release two models:
 1. The LongAnimateDiff model, capable of generating videos with frame counts ranging from 16 to 64. You can download the weights from either
 [Google Drive](https://drive.google.com/file/d/1rKvG7paObqPwke-9jqRMgH5cVZvWjIcj/view?usp=sharing) or [HuggingFace](https://huggingface.co/Lightricks/LongAnimateDiff). For optimal results, we recommend using a motion scale of 1.28.
@@ -15,6 +14,7 @@ We release two models:
    Please download the weights from [Google Drive](https://drive.google.com/file/d/1ulrQuiGIJpK7lMvgdruF2Q2FJgHnj5_m/view?usp=sharing) or [HuggingFace](https://huggingface.co/Lightricks/LongAnimateDiff).
    For better results, use a motion scale of 1.15.
 
+## Results
 
 <table class="center">
             <tr style="line-height: 0">
