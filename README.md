@@ -2,6 +2,7 @@
 
 [Sapir Weissbuch](https://github.com/SapirW), [Naomi Ken Korem](https://github.com/Naomi-Ken-Korem), [Daniel Shalem](https://github.com/dshalem), [Yoav HaCohen](https://github.com/yoavhacohen) | Lightricks Research
 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow)](https://huggingface.co/spaces/Lightricks/LongAnimateDiff)
 
 We are pleased to release the "LongAnimateDiff" model, which has been trained to generate videos with a variable frame count, 
 ranging from 16 to 64 frames. 
