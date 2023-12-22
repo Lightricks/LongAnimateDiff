@@ -58,7 +58,7 @@ We release two models:
 ### ComfyUI usage
 
 You can run our models using the ComfyUI framework. The models can be conveniently placed in the 
-'AnimateDiff models' folder within your ComfyUI framework. You can run the graph bellow.
+'AnimateDiff models' folder within your ComfyUI framework. You can run the graph below.
 
 ![alt text](https://github.com/Lightricks/LongAnimateDiff/blob/main/assets/ComfyUI.png)
 
